@@ -14,7 +14,7 @@ function Sources() {
     const getCodes = async () => {
       try {
         const response = await fetch(
-          "https://api.github.com/repos/Vijendra-Tech/poc_code-mirror/contents",
+          "https://api.github.com/repos/Vijendra-Tech/poc_next_auth/contents",
           {
             headers: {
               Accept: "application/vnd.github+json",
@@ -53,7 +53,7 @@ function Sources() {
     setDirName(dir);
     try {
       const response = await fetch(
-        `https://api.github.com/repos/Vijendra-Tech/poc_code-mirror/contents/${dir}`,
+        `https://api.github.com/repos/Vijendra-Tech/poc_next_auth/contents/${dir}`,
         {
           headers: {
             Accept: "application/vnd.github+json",

@@ -13,7 +13,7 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   const githubRepo=()=>{
-    window.open("https://github.com/Vijendra-Tech/poc_code-mirror","_blank")
+    window.open("https://github.com/Vijendra-Tech/poc_next_auth","_blank")
   }
   return (
     <html lang="en">
